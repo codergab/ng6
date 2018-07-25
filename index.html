@@ -3,14 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>Ng6</title>
-
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="ng6/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="ng6/styles.7912fa449a3f13fc6ae9.css"></head>
+<link rel="stylesheet" href="styles.7912fa449a3f13fc6ae9.css"></head>
 <body>
   <app-root></app-root>
-<script type="text/javascript" src="ng6/runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="ng6/polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="ng6/main.2fee2528c30be5dc2eab.js"></script></body>
+  
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDhIPMKal8yZoI0Z1qksJl3qvQbYfjCryk",
+    authDomain: "ng6-built.firebaseapp.com",
+    databaseURL: "https://ng6-built.firebaseio.com",
+    projectId: "ng6-built",
+    storageBucket: "",
+    messagingSenderId: "977340729463"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.2fee2528c30be5dc2eab.js"></script></body>
 </html>
